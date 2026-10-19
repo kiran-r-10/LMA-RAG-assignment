@@ -1,0 +1,8 @@
+component,mean_ms,std_ms,n_samples,group
+query embedding,7.155,1.202,380,retrieval
+vector search (dot product + top-10 sort),0.099,0.024,380,retrieval
+baseline retrieval total,7.227,1.276,380,retrieval
+cross-encoder scoring (10 pairs),23.845,2.491,380,retrieval
+re-ranking pipeline total,31.103,3.176,380,retrieval
+extra latency from re-ranking,23.876,3.125,380,retrieval
+LLM generation (not part of retrieval),3812.3,2358.5,3,generation
